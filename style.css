@@ -1,0 +1,194 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color:aliceblue;
+    background-color: black;
+}
+body{
+    background-color:black;
+}
+.head{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+   background-image: url(InShot_20250325_204312260.jpg);
+
+   
+  cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    height: 10vh;
+    flex-wrap: wrap;
+    
+    
+}
+.logo {
+    margin-top: 20px;
+    
+}
+.logo h1{
+   
+    color:red;
+    font-size: xxx-large;
+    position: relative;
+}
+#name::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background-color: aqua;
+    transition: all ease 0.5s;
+}
+#name:hover::after{
+    width: 100%;
+
+}
+
+
+
+
+.logo span{
+    color:cadetblue;
+}
+.navbar{
+    margin-top: 15px;
+    margin-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-between;
+}
+.navbar a{
+    margin-left: 5vw;
+    margin-top: 20px;
+    color:aliceblue;
+    text-decoration: none;
+    border-width: 0.5px;
+    border-color:blue;
+    border-style: solid;
+    padding: 8px;
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    font-size: x-large;
+}
+.navbar a:hover{
+    color:aqua;
+}
+    
+.content p{
+    
+    position: absolute;
+    top: 400px;
+    font-size: xx-large;
+font-weight: bolder;
+margin-left: 8VW;
+cursor: pointer;
+color: cadetblue;
+}
+.content #span2{
+ color:red;
+}
+.content #span1{
+    font-size: xxx-large;
+    color: blue;
+}
+
+
+    
+.sec1{
+    display: flex;
+justify-content: space-between;
+    background-color: black;
+    
+    margin-top: 3vh;
+flex-wrap: wrap;
+
+  height: 100%;
+  margin-bottom: 3vh;
+}
+.abtimg img{
+  
+    
+    margin-left: 10vw;
+    border-radius: 20px;
+    margin-top: 3vh;
+    width: 20vw;
+
+
+    
+}
+.about h1{
+    
+    margin-top: 3vh;
+    color: rgba(240, 248, 255, 0.76);
+    display: flex;
+    font-size: xxx-large;
+    display: inline;
+    margin-left: 10vw;
+    margin-bottom: 10px;
+    
+    
+}
+.about h1:hover{
+    color: purple;
+}
+.about p{
+    margin-left: 10vw;
+    margin-right: 2vh;
+    color:aliceblue;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+.abtcontent{
+ 
+    background-color: aqua;
+   margin-left: 10vw;
+}
+.contact{
+    
+    margin-left: 10vw;
+    font-size: x-large;
+    margin-top: 200px;
+
+}
+.contact h1{
+    display: inline;
+}
+.links{
+    margin-top: 50px;
+    margin-left: 10vw;
+    margin-bottom: 400px;
+
+}
+.links a:hover{
+    color: red;
+}
+.contact h1:hover{
+    color: purple;
+}
+.links a{
+    font-size: larger;
+    text-decoration:none ;
+}
+.f{
+    color: blue;
+}
+.i{
+    color:rgb(197, 30, 197);
+}
+.n{
+    color: rgb(45, 130, 158);
+}
